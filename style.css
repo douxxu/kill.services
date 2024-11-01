@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/background\ 2.jpg);
+    background-image: linear-gradient(rgba(61, 0, 0, 0.247),rgba(61, 0, 0, 0.247)),url(images/Creed.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -148,6 +148,7 @@ p{
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
+    color: #303030;
 }
 h3{
     text-align: center;
@@ -334,27 +335,32 @@ h3{
 }
 
 
+body {
+    background-image: linear-gradient(rgba(61, 0, 0, 0.25), rgba(61, 0, 0, 0.25)), url('images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
 
+.section {
+    background: rgba(61, 0, 0, 0.4);
+    padding: 50px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
 
+p {
+    color: #f0f0f0; 
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.p-2 {
+    color: #303030; 
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
